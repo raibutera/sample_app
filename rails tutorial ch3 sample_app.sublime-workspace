@@ -1,0 +1,274 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"do",
+				"do"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/User/Marked.sublime-build",
+	"command_palette":
+	{
+		"height": 400.0,
+		"selected_items":
+		[
+			[
+				"lint",
+				"SublimeLinter: Next Error"
+			],
+			[
+				"markdown",
+				"Set Syntax: Markdown GFM"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"markdown ",
+				"Set Syntax: Markdown GFM"
+			],
+			[
+				"title",
+				"Convert Case: Title Case"
+			],
+			[
+				"evernote",
+				"Evernote: Send to Evernote"
+			],
+			[
+				"Gfm",
+				"Set Syntax: Markdown GFM"
+			],
+			[
+				"markdown GFM",
+				"Set Syntax: Markdown GFM"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"list packages",
+				"Package Control: List Packages"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"ruby",
+				"Set Syntax: Ruby"
+			]
+		],
+		"width": 610.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/rai/Dropbox/Programming/ruby/sample_app/README.rdoc",
+		"/Users/rai/Dropbox/Programming/ruby/first_app/Gemfile",
+		"/Users/rai/Dropbox/Programming/ruby/Rails App Instructions.md",
+		"/Users/rai/Dropbox/Programming/ruby/sample_app/.gitignore",
+		"/Users/rai/Dropbox/Programming/ruby/sample_app/Gemfile",
+		"/Users/rai/Dropbox/Programming/ruby/sample_app/README.md",
+		"/Users/rai/Dropbox/Programming/ruby/first_app/app/models/micropost.rb",
+		"/Users/rai/Dropbox/Programming/ruby/first_app/app/models/user.rb",
+		"/Users/rai/Dropbox/Programming/ruby/first_app/app/controllers/users_controller.rb",
+		"/Users/rai/Dropbox/Programming/ruby/first_app/config/routes.rb",
+		"/Users/rai/.oh-my-zsh/oh-my-zsh.sh",
+		"/Users/rai/.zshrc",
+		"/Users/rai/bin/dotfiles/zsh/env",
+		"/Users/rai/bin/dotfiles/zsh/aliases",
+		"/Users/rai/Dropbox/Programming/ruby/first_app/Gem",
+		"/Users/rai/Dropbox/Programming/ruby/first_app/.Gemfile",
+		"/Users/rai/Dropbox/Programming/ruby/first_app/README.md",
+		"/Users/rai/Dropbox/Programming/ruby/first_app/.gitignore",
+		"/Users/rai/Dropbox/Clients/fit2function/MMG",
+		"/Users/rai/Desktop/02 April 2014.md",
+		"/Users/rai/Desktop/01 April 2014.md",
+		"/Users/rai/Desktop/Day",
+		"/Users/rai/Dropbox/Programming/Diary",
+		"/Users/rai/Dropbox/Programming/02",
+		"/Users/rai/Dropbox/Programming/April",
+		"/Users/rai/Desktop/Day Diary 02 April 2014.md",
+		"/Users/rai/Dropbox/Programming/2014.md",
+		"/Users/rai/.gemrc",
+		"/Users/rai/Downloads/rubygems-1.8.25/README.rdoc",
+		"/Users/rai/Desktop/Frugl.md",
+		"/Users/rai/Dropbox/Programming/ruby/notes/rfz2/rails_for_zombies_two-5.md",
+		"/Users/rai/Desktop/28 March 2014.md",
+		"/Users/rai/Desktop/PickEvent.md",
+		"/Users/rai/Desktop/27 March 2014.md",
+		"/Users/rai/Desktop/Startup Career Launchpad.md",
+		"/Users/rai/Dropbox/Programming/ruby/TwitterForZombies/config/database.yml",
+		"/Users/rai/Dropbox/Programming/ruby/notes/rfz2/rails_for_zombies_two-1.md",
+		"/config/database.yml",
+		"/Users/rai/Dropbox/Programming/ruby/TwitterForZombies/app/controllers/zombies_controller.rb",
+		"/Users/rai/Desktop/How to Build a Startup Lesson 1-5b.md",
+		"/Users/rai/Desktop/How to Build a Startup Lesson 1-5a.md",
+		"/Users/rai/Desktop/How to Build a Startup Lesson 1.md",
+		"/Users/rai/Desktop/Fit2Function Lesson 2.md",
+		"/Users/rai/Desktop/26th March 2014.md",
+		"/Users/rai/Dropbox/Programming/ruby/notes/RfR1.md",
+		"/Users/rai/Dropbox/Programming/ruby/codeschool - ruby bits 5.md",
+		"/Users/rai/Dropbox/Programming/ruby/codeschool - ruby bits 4.md",
+		"/Users/rai/Dropbox/Programming/ruby/codeschool - ruby bits 6.md",
+		"/Users/rai/Library/Application Support/Sublime Text 3/Packages/User/Markdown.sublime-settings",
+		"/Users/rai/Dropbox/Programming/ruby/codeschool - ruby bits 1.md",
+		"/Users/rai/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/Users/rai/Library/Application Support/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/tmp/subl stdin ceVnpp.txt",
+		"/Users/rai/.zprofile"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 106.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"##",
+			"assignments",
+			"destroy",
+			"Udacity",
+			"Rails for Zombies",
+			"for Zombies",
+			"Rails",
+			"10",
+			"$ ",
+			"Business Model Canvas"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 122.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "rails tutorial ch3 sample_app.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 264.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
