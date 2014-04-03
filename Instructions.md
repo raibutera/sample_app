@@ -203,3 +203,23 @@ $ bundle exec guard
 ```
 
 ## Installing Bootstrap
+
+### Listing 5.3. Adding the bootstrap-sass gem to the Gemfile.
+
+```ruby
+gem 'rails', '3.2.15'
+gem 'bootstrap-sass', '2.1'
+.
+.
+.
+```
+
+The first step in adding custom CSS to our application is to create a file to contain it:
+
+`app/assets/stylesheets/custom.css.scss`
+
+and wthin
+```scss
+@import "bootstrap";
+```
+
