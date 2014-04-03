@@ -201,3 +201,5 @@ add spork to guardfile. With that configuration in place, we can start Guard and
 ```shell
 $ bundle exec guard
 ```
+
+## Installing Bootstrap
