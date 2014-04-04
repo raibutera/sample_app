@@ -264,3 +264,36 @@ Annotated (1): User
 => "mhartl@example.net"
 ```
 
+## Validating Uniqueness
+
+### At model level
+```ruby
+validates :email, presence: true, format: { with: VALID_EMAIL_REGEX },
+                    uniqueness: { case_sensitive: false }
+```
+
+### At DB level
+Create a database index on the email column and require that the index be unique:
+```shell
+rails generate migration add_index_to_users_email
+```
+
+then add to migration:
+
+```ruby
+class AddIndexToUsersEmail < ActiveRecord::Migration
+  def change
+    add_index :users, :email, unique: true
+  end
+end
+```
+
+then use rake to migrate
+
+#### save as lower case
+not all database adapters use case-sensitive indices, so save email addresses as lower case.
+
+```ruby
+  before_save { |user| user.email = email.downcase }
+```
+
