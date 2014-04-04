@@ -301,10 +301,17 @@ not all database adapters use case-sensitive indices, so save email addresses as
 1. Add `bcrypt-ruby` to Gemfile
 2. Add test ensuring that User object has `password_digest` column
 3. generate migration
-4. 
+4. migrate database 
 
 ```shell
 $ bundle exec rake db:migrate
 $ bundle exec rake db:test:prepare
 $ bundle exec rspec spec/
 ```
+
+tests:
+1. add `:password` and `:password_confirmation` to initialization hash for User.new
+2. test for password presence 
+  * `before { @user.password = @user.password_confirmation = " " } it { should_not be_valid }`
+3. test for password mismatch `before { @user.password_confirmation = "mismatch" }`
+4. test for `password_confirmation` equals `nil`
