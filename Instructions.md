@@ -223,3 +223,21 @@ and wthin
 @import "bootstrap";
 ```
 
+## Generating Models
+first generate the controller 
+
+```shell
+rails generate controller Users new --no-test-framework
+```
+
+generate the model
+
+```shell
+rails generate model User name:string email:string
+```
+(Note that, in contrast to the plural convention for controller names, model names are singular: a Users controller, but a User model.)
+
+This creates a migration in db/migrate
+
+# Model Annotation
+Although it’s not strictly necessary, you might find it convenient to annotate your Rails models using the annotate gem (Listing 6.4).
