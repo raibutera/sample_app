@@ -297,3 +297,14 @@ not all database adapters use case-sensitive indices, so save email addresses as
   before_save { |user| user.email = email.downcase }
 ```
 
+## Passwords
+1. Add `bcrypt-ruby` to Gemfile
+2. Add test ensuring that User object has `password_digest` column
+3. generate migration
+4. 
+
+```shell
+$ bundle exec rake db:migrate
+$ bundle exec rake db:test:prepare
+$ bundle exec rspec spec/
+```
