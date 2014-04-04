@@ -315,3 +315,19 @@ tests:
   * `before { @user.password = @user.password_confirmation = " " } it { should_not be_valid }`
 3. test for password mismatch `before { @user.password_confirmation = "mismatch" }`
 4. test for `password_confirmation` equals `nil`
+
+### User Authentication
+1. find user by email using `find_by_email` method
+2. use `authenticate` method to verify user has the given password - should return the user or `false` if incorrect
+3. add `respond_to` test for `:authenticate`
+
+#### Password Match and Mismatch tests
+1. before save the user in database
+2. use `let` to store the user by email
+3. test _"with valid password"_ use `authenticate` method to verify given password
+4. test _"with invalid password"_ use another `let` with an invalid `authenticate` -> should return `false`
+
+
+>The two describe blocks cover the case where @user and found_user should be the same (password match) and different (password mismatch); they use the “double equals” == test for object equivalence (Section 4.3.1). Note that the tests in
+
+
