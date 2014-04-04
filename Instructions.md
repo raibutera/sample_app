@@ -331,3 +331,10 @@ tests:
 >The two describe blocks cover the case where @user and found_user should be the same (password match) and different (password mismatch); they use the “double equals” == test for object equivalence (Section 4.3.1). Note that the tests in
 
 
+extra - test for length validation, requiring >6char
+
+### Implementing Secure passwords.
+1. make `:password` and `:password_confirmation` accessible
+2. presence and length validations for the password, the latter of which uses the :minimum key in analogy with the :maximum key
+3. add `has_secure_password` method
+4. add presence validatoin for password confirmation.
