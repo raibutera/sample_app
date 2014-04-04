@@ -241,3 +241,25 @@ This creates a migration in db/migrate
 
 # Model Annotation
 Although it’s not strictly necessary, you might find it convenient to annotate your Rails models using the annotate gem (Listing 6.4).
+
+add the gem `annotate` to Gemfile
+
+This gives us a command called annotate, which simply adds comments containing the data model to the model file:
+
+```shell
+$ bundle exec annotate
+Annotated (1): User
+```
+
+# Updating User Objects
+
+`user.update_attributes` does an attribute assignment and a `user.save` in one step.
+
+```shell
+>> user.email
+=> "mhartl@example.net"
+>> user.email = "foo@bar.com"
+=> "foo@bar.com"
+>> user.reload.email
+=> "mhartl@example.net"
+```
