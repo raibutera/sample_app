@@ -6,7 +6,8 @@ class UsersController < ApplicationController
   def create
     @user = User.new(params[:user])
     if @user.save
-      # handle successful save
+      # on successful save redirect to user's profile
+      redirect_to @user
     else
       render 'new'
     end
