@@ -20,6 +20,13 @@ describe "Authentication" do
 
       it { should have_selector('title', text: 'Sign in') }
       it { should have_selector('div.alert.alert-error', text: 'Invalid') }
+
+      # from 8.11 - correct tests for signin failure
+      # flash shouldnt display once user navigates away from form
+      describe "after visiting another page" do
+        before { click_link "Home" }
+        it { should_not have_selector('div.alert.alert-error') }
+      end
     end
   end
 
