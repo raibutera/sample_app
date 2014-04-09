@@ -1,2 +1,13 @@
 <% provide(:title, "Sign in") %>
 <h1>Sign in</h1>
+<!-- <div class="container">
+  <%= form_for @users do |f| %>
+    <% render 'shared/error_messages' %>
+    <%= f.label :email %>
+    <%= f.text_field :email %>
+    <%= f.label :password %>
+    <%= f.text_field :password %>
+    <%= f.submit "Sign in", class: "btn btn-large btn-primary" %>
+    New User? <%= link_to("Sign up now!") signup_path %>
+  <% end %>
+</div> -->
