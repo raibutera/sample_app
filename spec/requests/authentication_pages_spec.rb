@@ -19,7 +19,7 @@ describe "Authentication" do
       before { click_button "Sign in" }
 
       it { should have_selector('title', text: 'Sign in') }
-      it { should have_selector('div.alert.alert-error', text: 'Invalid') }
+      it { should have_error_message('Invalid') }
 
       # from 8.11 - correct tests for signin failure
       # flash shouldnt display once user navigates away from form
@@ -35,9 +35,7 @@ describe "Authentication" do
     let(:user) { FactoryGirl.create(:user) }
     before do
       visit signin_path
-      fill_in "Email",    with: user.email.upcase
-      fill_in "Password", with: user.password
-      click_button "Sign in"
+      valid_signin(user)
     end
 
     it { should have_selector('title', text: user.name) }
