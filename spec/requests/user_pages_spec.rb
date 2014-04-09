@@ -62,6 +62,9 @@ describe "User pages" do
 
           it { should have_selector('title', text: user.name) }
           it { should have_selector('div.alert.alert-success', text: 'Welcome') }
+
+          # 8.26 - test that newly signed up users are also signed in
+          it { should have_link('Sign out') }
         end
       end
     end
