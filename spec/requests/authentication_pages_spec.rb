@@ -51,6 +51,12 @@ describe "Authentication" do
     it { should have_link('Settings', href: edit_user_path(user)) }
     it { should have_link('Sign out', href: signout_path) }
     it { should_not have_link('Sign in', href: signin_path) }
+    
+    # test for if signed in users try to access new user and create user redirects
+    describe "attempting to access create and new actions as a signed in user" do
+      before { visit signup_path }
+      it { should_not have_title('Sign up') }
+    end
 
     # test for signing out user
     describe "followed by signout" do

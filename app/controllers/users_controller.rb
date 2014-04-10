@@ -2,6 +2,7 @@ class UsersController < ApplicationController
   before_filter :signed_in_user, only: [:edit, :update, :index]
   before_filter :correct_user, only: [:edit, :update]
   before_filter :admin_user, only: [:destroy]
+  before_filter :not_logged_in, only: [:new, :create]
   
   def new
     @user = User.new
@@ -62,5 +63,9 @@ class UsersController < ApplicationController
 
     def admin_user
       redirect_to(root_url) unless current_user.admin?
+    end
+
+    def not_logged_in
+      redirect_to root_url, error: "User already exists!" if signed_in?
     end
 end

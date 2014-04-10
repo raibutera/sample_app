@@ -56,6 +56,7 @@ describe "User pages" do
           let(:user) { User.find_by_email('user@example.com') }
 
           it { should have_title(user.name) }
+          it { should_not have_content('error') }
           it { should have_success_message('Welcome') }
 
           # 8.26 - test that newly signed up users are also signed in
