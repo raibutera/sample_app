@@ -40,6 +40,7 @@ describe "User pages" do
           it { should have_content('error') }
           
           it { should have_selector('div', class: 'alert-error') }
+          # it {should have_error_message('already exists')}
           it { should have_selector('li') }
         end
       end

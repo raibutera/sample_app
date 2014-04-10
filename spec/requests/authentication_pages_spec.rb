@@ -67,6 +67,23 @@ describe "Authentication" do
 
   # from 9.11 - testing that the edit and update actions are protected.
   describe "authorization" do
+    describe "as admin" do
+        let(:admin) { FactoryGirl.create(:admin) }
+
+        before do 
+          sign_in admin 
+        end
+
+        describe "submitting a DELETE request for self" do
+          before do 
+            sign_in admin
+            delete user_path(admin)
+          end
+          specify { response.should redirect_to(root_url) }
+          it {should have_selector('div' , class: 'alert-error')}
+        end
+      end
+    end
 
     describe "for non-signed-in users" do
       let(:user) { FactoryGirl.create(:user) }
@@ -144,7 +161,7 @@ describe "Authentication" do
           specify { response.should redirect_to(root_url) }
         end
       end
-    end
+
   end
 
 end

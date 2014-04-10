@@ -3,6 +3,7 @@ class UsersController < ApplicationController
   before_filter :correct_user, only: [:edit, :update]
   before_filter :admin_user, only: [:destroy]
   before_filter :not_logged_in, only: [:new, :create]
+  before_filter :stupid_admin, only: [:destroy]
   
   def new
     @user = User.new
@@ -66,6 +67,10 @@ class UsersController < ApplicationController
     end
 
     def not_logged_in
-      redirect_to root_url, error: "User already exists!" if signed_in?
+      redirect_to root_url, :flash => { :error => "User already exists!" } if signed_in?
+    end
+
+    def stupid_admin
+      redirect_to root_url, :flash => { :error => "WTF" } if User.find(params[:id]).admin
     end
 end
