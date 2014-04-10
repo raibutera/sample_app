@@ -29,6 +29,9 @@ class UsersController < ApplicationController
     @users = User.paginate(page: params[:page])
   end
 
+  def destroy
+  end
+
   def update
     if @user.update_attributes(params[:user])
       flash[:success] = "Profile updated"
