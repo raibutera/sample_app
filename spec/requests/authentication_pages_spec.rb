@@ -14,6 +14,13 @@ describe "Authentication" do
   # from 8.5 - tests for signin failure
   describe "signin" do
     before { visit signin_path }
+    describe "not signed in yet" do
+      let(:user) {FactoryGirl.create(:user)}
+      it { should_not have_link('Profile', href: user_path(user)) }
+      it { should_not have_link('Users', href: users_path) }
+      it { should_not have_link('Settings', href: edit_user_path(user)) }
+      it { should_not have_link('Sign out', href: signout_path) }
+    end
 
     describe "with invalid information" do
       before { click_button "Sign in" }
