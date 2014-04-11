@@ -4,15 +4,71 @@
 		"selected_items":
 		[
 			[
+				"it",
+				"iti	it { should something }"
+			],
+			[
+				"not",
+				"not_logged_in"
+			],
+			[
+				"f",
+				"f.	f.text_field (fftf)"
+			],
+			[
+				"cr",
+				"create"
+			],
+			[
+				"have",
+				"have_selector"
+			],
+			[
+				"se",
+				"session"
+			],
+			[
+				"ret",
+				"return_to"
+			],
+			[
+				"redi",
+				"redirect_to"
+			],
+			[
+				"signed",
+				"signed_in_user"
+			],
+			[
+				"pass",
+				"Password"
+			],
+			[
+				"email",
+				"email"
+			],
+			[
+				"li",
+				"listing"
+			],
+			[
+				"grava",
+				"gravatar_id"
+			],
+			[
+				"us",
+				"users"
+			],
+			[
+				"res",
+				"resources"
+			],
+			[
 				"shou",
 				"should_not"
 			],
 			[
 				"password",
-				"password_confirmation"
-			],
-			[
-				"pass",
 				"password_confirmation"
 			],
 			[
@@ -27,9 +83,53 @@
 	"build_system": "Packages/User/Marked.sublime-build",
 	"command_palette":
 	{
-		"height": 292.0,
+		"height": 375.0,
 		"selected_items":
 		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove package",
+				"Package Control: Remove Package"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"syntax RSp",
+				"Set Syntax: RSpec"
+			],
+			[
+				"syntax Rails",
+				"Set Syntax: Ruby on Rails"
+			],
+			[
+				"syntax ruby",
+				"Set Syntax: Ruby"
+			],
+			[
+				"path",
+				"File: Copy Path"
+			],
+			[
+				"refresh",
+				"Project: Refresh Folders"
+			],
+			[
+				"gherkin",
+				"Gherkin/Cucumber: Format"
+			],
+			[
+				"align",
+				"Preferences: Alignment Key Bindings – User"
+			],
+			[
+				"package list",
+				"Package Control: List Packages"
+			],
 			[
 				"instal",
 				"Package Control: Install Package"
@@ -67,10 +167,6 @@
 				"Set Syntax: Markdown GFM"
 			],
 			[
-				"install",
-				"Package Control: Install Package"
-			],
-			[
 				"list packages",
 				"Package Control: List Packages"
 			],
@@ -83,7 +179,7 @@
 				"Set Syntax: Ruby"
 			]
 		],
-		"width": 588.0
+		"width": 522.0
 	},
 	"console":
 	{
@@ -103,61 +199,114 @@
 	},
 	"file_history":
 	[
-		"/Users/rai/Desktop/04 April 2014.md",
-		"/Users/rai/Dropbox/Programming/ruby/sample_app/db/migrate/20140404151752_add_index_to_users_email.rb",
-		"/Users/rai/Dropbox/Programming/ruby/sample_app/app/models/user.rb",
+		"/Users/rai/Desktop/10 April 2014.md",
 		"/Users/rai/Dropbox/Programming/ruby/sample_app/Gemfile",
+		"/Users/rai/Dropbox/Programming/ruby/sample_app/spec/spec_helper.rb",
+		"/Users/rai/Dropbox/Programming/ruby/sample_app/spec/models/micropost_spec.rb",
+		"/Users/rai/Dropbox/Programming/ruby/sample_app/app/models/micropost.rb",
+		"/Users/rai/Dropbox/Programming/ruby/sample_app/db/migrate/20140404151752_add_index_to_users_email.rb",
+		"/Users/rai/Dropbox/Programming/ruby/sample_app/db/migrate/20140410131713_create_microposts.rb",
+		"/Users/rai/Dropbox/Programming/ruby/sample_app/Guardfile",
 		"/Users/rai/Dropbox/Programming/ruby/sample_app/spec/models/user_spec.rb",
-		"/Users/rai/Dropbox/Utilities/Tweaks/screenfetch/screenfetch-dev",
+		"/Users/rai/Dropbox/Programming/ruby/sample_app/app/controllers/sessions_controller.rb",
+		"/Users/rai/Dropbox/Programming/ruby/sample_app/.rspec",
+		"/Users/rai/Dropbox/Programming/ruby/sample_app/app/models/user.rb",
+		"/Users/rai/Dropbox/Programming/ruby/sample_app/.gitignore",
+		"/Users/rai/Dropbox/Programming/ruby/sample_app/spec/factories.rb",
+		"/Users/rai/Dropbox/Programming/ruby/sample_app/lib/tasks/sample_data.rake",
+		"/Users/rai/Dropbox/Programming/ruby/sample_app/spec/support/utilities.rb",
+		"/Users/rai/Dropbox/Programming/ruby/sample_app/spec/requests/user_pages_spec.rb",
+		"/Users/rai/Dropbox/Programming/ruby/sample_app/spec/requests/authentication_pages_spec.rb",
+		"/Users/rai/Dropbox/Programming/ruby/sample_app/app/views/users/_fields.html.erb",
+		"/Users/rai/Dropbox/Programming/ruby/sample_app/app/views/users/new.html.erb",
+		"/Users/rai/Dropbox/Programming/ruby/sample_app/app/views/users/edit.html.erb",
+		"/Users/rai/Dropbox/Programming/ruby/sample_app/app/views/layouts/_header.html.erb",
+		"/Users/rai/Dropbox/Programming/ruby/sample_app/app/views/users/_user.html.erb",
+		"/Users/rai/Dropbox/Programming/ruby/sample_app/app/views/users/index.html.erb",
+		"/Users/rai/Dropbox/Programming/ruby/sample_app/app/views/layouts/application.html.erb",
+		"/Users/rai/Dropbox/Programming/ruby/sample_app/app/controllers/users_controller.rb",
+		"/Users/rai/Dropbox/Programming/ruby/sample_app/app/helpers/users_helper.rb",
 		"/Users/rai/Dropbox/Programming/ruby/sample_app/db/migrate/20140404153251_add_password_digest_to_users.rb",
+		"/Users/rai/Dropbox/Programming/ruby/sample_app/app/assets/javascripts/application.js",
+		"/Users/rai/Dropbox/Programming/ruby/sample_app/spec/helpers/application_helper_spec.rb",
+		"/Users/rai/Dropbox/Programming/ruby/sample_app/features/step_definitions/authentication_steps.rb",
+		"/Users/rai/Dropbox/Programming/ruby/sample_app/app/helpers/application_helper.rb",
+		"/Users/rai/Dropbox/Programming/ruby/sample_app/app/controllers/application_controller.rb",
+		"/Users/rai/Dropbox/Programming/ruby/sample_app/app/helpers/sessions_helper.rb",
+		"/Users/rai/Dropbox/Programming/ruby/sample_app/app/controllers/sessions_controller.rb.orig",
+		"/Users/rai/Dropbox/Programming/ruby/sample_app/app/controllers/static_pages_controller.rb",
+		"/Users/rai/Dropbox/Programming/ruby/sample_app/app/controllers/concerns/.keep",
+		"/Users/rai/Dropbox/Programming/ruby/sample_app/app/views/static_pages/contact.html.erb",
+		"/Users/rai/Dropbox/Programming/ruby/sample_app/config.ru",
+		"/Users/rai/Dropbox/Programming/ruby/sample_app/app/assets/stylesheets/custom.css.scss",
+		"/Users/rai/Dropbox/Programming/ruby/sample_app/config/routes.rb",
+		"/Users/rai/Dropbox/Programming/ruby/sample_app/test/test_helper.rb",
+		"/Users/rai/Dropbox/Programming/ruby/sample_app/app/helpers/static_pages_helper.rb",
+		"/Users/rai/Dropbox/Programming/ruby/sample_app/config/initializers/filter_parameter_logging.rb",
+		"/Users/rai/Dropbox/Programming/ruby/sample_app/app/views/sessions/new.html.erb",
+		"/Users/rai/Dropbox/Programming/ruby/sample_app/spec/requests/static_pages_spec.rb",
+		"/Users/rai/Dropbox/Programming/ruby/sample_app/config/environment.rb",
+		"/Users/rai/Dropbox/Programming/ruby/sample_app/app/assets/javascripts/users.js.coffee",
+		"/Users/rai/Dropbox/Programming/ruby/sample_app/app/models/.gitkeep",
+		"/Users/rai/Dropbox/Programming/ruby/sample_app/db/migrate/20140410095630_add_admin_to_users.rb",
+		"/Users/rai/Library/Application Support/Sublime Text 3/Packages/User/ERB Render.sublime-snippet",
+		"/Users/rai/Library/Application Support/Sublime Text 3/Packages/User/ERB Tag.sublime-snippet",
+		"/Users/rai/Dropbox/Programming/ruby/sample_app/doc/README_FOR_APP",
+		"/Users/rai/Dropbox/Programming/ruby/sample_app/lib/tasks/cucumber.rake",
+		"/Users/rai/Dropbox/Programming/ruby/sample_app/bin/rake",
+		"/Users/rai/Dropbox/Programming/ruby/sample_app/Rakefile",
+		"/Users/rai/Dropbox/Programming/ruby/sample_app/rails tutorial ch3 sample_app.sublime-project",
+		"/Users/rai/Dropbox/Programming/ruby/sample_app/config/environments/development.rb",
+		"/Users/rai/Dropbox/Programming/ruby/sample_app/app/assets/javascripts/sessions.js.coffee",
+		"/Users/rai/Dropbox/Programming/ruby/sample_app/features/signing_in.feature",
+		"/Users/rai/Dropbox/Programming/ruby/sample_app/config/initializers/session_store.rb",
+		"/Users/rai/Dropbox/Programming/ruby/sample_app/public/assets/application.js.gz",
+		"/Users/rai/Dropbox/Programming/ruby/sample_app/public/assets/application.js",
+		"/Users/rai/Dropbox/Programming/ruby/sample_app/db/migrate/20140409110620_add_remember_token_to_users.rb",
+		"/Users/rai/Dropbox/Programming/ruby/sample_app/README.md",
+		"/Users/rai/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/rai/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/rai/Dropbox/Programming/ruby/sample_app/config/routes.rb.REMOTE.1111.rb",
+		"/Users/rai/Dropbox/Programming/ruby/sample_app/db/seeds.rb",
+		"/Users/rai/Dropbox/Programming/ruby/sample_app/config/environments/test.rb",
+		"/Users/rai/Desktop/09 April 2014.md",
+		"/Users/rai/Dropbox/programming/ruby/sample_app/config/routes.rb",
+		"/private/etc/hosts",
+		"/Users/rai/Dropbox/Programming/ruby/sample_app/config/environments/production.rb",
+		"/Users/rai/Dropbox/Programming/ruby/sample_app/log/production.log",
+		"/Users/rai/Dropbox/Programming/ruby/sample_app/db/production.sqlite3",
+		"/Users/rai/Dropbox/Programming/ruby/sample_app/tmp/cache/assets/CF0/DA0/sprockets%2Fd7d5b37686831d37c4dd75e645f5e016",
+		"/Users/rai/Dropbox/Programming/ruby/sample_app/config/application.rb",
+		"/Users/rai/Dropbox/Programming/ruby/sample_app/app/views/shared/_error_messages.html",
+		"/Users/rai/Dropbox/Programming/ruby/sample_app/app/views/users/show.html.erb",
+		"/Users/rai/Dropbox/Programming/ruby/sample_app/log/test.log",
+		"/Users/rai/Dropbox/Programming/ruby/sample_app/db/test.sqlite3",
 		"/Users/rai/Dropbox/Programming/ruby/sample_app/db/migrate/20140404130607_create_users.rb",
+		"/Users/rai/Desktop/04 April 2014.md",
+		"/Users/rai/Dropbox/Utilities/Tweaks/screenfetch/screenfetch-dev",
 		"/Users/rai/Dropbox/Programming/ruby/sample_app/config/initializers/mime_types.rb",
 		"/Users/rai/Dropbox/Programming/ruby/sample_app/public/assets/manifest.yml",
-		"/Users/rai/Dropbox/Programming/ruby/sample_app/config/application.rb",
 		"/Users/rai/Dropbox/Programming/ruby/sample_app/db/schema.rb",
-		"/Users/rai/Dropbox/Programming/ruby/sample_app/config/routes.rb",
-		"/Users/rai/Dropbox/Programming/ruby/sample_app/db/seeds.rb",
 		"/Users/rai/Dropbox/Programming/ruby/sample_app/config/boot.rb",
-		"/Users/rai/Dropbox/Programming/ruby/sample_app/.rspec",
-		"/Users/rai/Dropbox/Programming/ruby/sample_app/.gitignore",
-		"/Users/rai/Dropbox/Programming/ruby/sample_app/spec/requests/static_pages_spec.rb",
 		"/Users/rai/Dropbox/programming/ruby/sample_app/Gemfile",
 		"/Users/rai/Dropbox/Programming/ruby/sample_app/Instructions.md",
-		"/Users/rai/Dropbox/Programming/ruby/sample_app/rails tutorial ch3 sample_app.sublime-project",
-		"/Users/rai/Dropbox/Programming/ruby/sample_app/app/controllers/users_controller.rb",
 		"/Users/rai/Dropbox/Programming/ruby/sample_app/config/initializers/wrap_parameters.rb",
-		"/Users/rai/Dropbox/Programming/ruby/sample_app/db/production.sqlite3",
 		"/Users/rai/Dropbox/Programming/ruby/sample_app/config/database.yml",
-		"/Users/rai/Dropbox/Programming/ruby/sample_app/spec/support/utilities.rb",
 		"/Users/rai/Dropbox/Programming/ruby/sample_app/tmp/cache/assets/D4E/1B0/sprockets%2Ff7cbd26ba1d28d48de824f0e94586655",
-		"/Users/rai/Dropbox/Programming/ruby/sample_app/app/helpers/application_helper.rb",
-		"/Users/rai/Dropbox/Programming/ruby/sample_app/app/views/layouts/application.html.erb",
-		"/Users/rai/Dropbox/Programming/ruby/sample_app/spec/helpers/application_helper_spec.rb",
-		"/Users/rai/Dropbox/Programming/ruby/sample_app/app/views/layouts/_header.html.erb",
-		"/Users/rai/Dropbox/Programming/ruby/sample_app/app/models/.gitkeep",
 		"/Users/rai/Dropbox/Programming/ruby/sample_app/app/mailers/.gitkeep",
-		"/Users/rai/Dropbox/Programming/ruby/sample_app/app/helpers/users_helper.rb",
-		"/Users/rai/Dropbox/Programming/ruby/sample_app/spec/requests/user_pages_spec.rb",
 		"/Users/rai/Dropbox/Programming/ruby/sample_app/db/development.sqlite3",
-		"/Users/rai/Dropbox/Programming/ruby/sample_app/spec/spec_helper.rb",
-		"/Users/rai/Dropbox/Programming/ruby/sample_app/app/views/users/new.html.erb",
 		"/Users/rai/Dropbox/Programming/ruby/sample_app/test/performance/browsing_test.rb",
 		"/Users/rai/Dropbox/Programming/ruby/sample_app/vendor/assets/stylesheets/.gitkeep",
 		"/Users/rai/Dropbox/Programming/ruby/sample_app/config/initializers/backtrace_silencers.rb",
-		"/Users/rai/Dropbox/Programming/ruby/sample_app/app/helpers/static_pages_helper.rb",
-		"/Users/rai/Dropbox/Programming/ruby/sample_app/test/test_helper.rb",
 		"/Users/rai/Dropbox/Programming/ruby/sample_app/app/views/static_pages/help.html.erb",
 		"/Users/rai/Dropbox/Programming/ruby/sample_app/app/views/static_pages/home.html.erb",
 		"/Users/rai/Dropbox/Programming/ruby/sample_app/app/views/layouts/foobar.rhtml",
 		"/Users/rai/Dropbox/Programming/ruby/sample_app/app/views/layouts/_shim.html.erb",
 		"/Users/rai/Dropbox/Programming/ruby/sample_app/app/views/layouts/_footer.html.erb",
-		"/Users/rai/Dropbox/Programming/ruby/sample_app/config/initializers/filter_parameter_logging.rb",
 		"/Users/rai/Dropbox/Programming/ruby/sample_app/vendor/plugins/.gitkeep",
-		"/Users/rai/Dropbox/Programming/ruby/sample_app/app/controllers/static_pages_controller.rb",
 		"/Users/rai/Dropbox/Programming/ruby/sample_app/README.rdoc",
 		"/Users/rai/Dropbox/Programming/ruby/first_app/Gemfile",
 		"/Users/rai/Dropbox/Programming/ruby/Rails App Instructions.md",
-		"/Users/rai/Dropbox/Programming/ruby/sample_app/README.md",
 		"/Users/rai/Dropbox/Programming/ruby/first_app/app/models/micropost.rb",
 		"/Users/rai/Dropbox/Programming/ruby/first_app/app/models/user.rb",
 		"/Users/rai/Dropbox/Programming/ruby/first_app/app/controllers/users_controller.rb",
@@ -177,39 +326,11 @@
 		"/Users/rai/Dropbox/Programming/Diary",
 		"/Users/rai/Dropbox/Programming/02",
 		"/Users/rai/Dropbox/Programming/April",
-		"/Users/rai/Desktop/Day Diary 02 April 2014.md",
-		"/Users/rai/Dropbox/Programming/2014.md",
-		"/Users/rai/.gemrc",
-		"/Users/rai/Downloads/rubygems-1.8.25/README.rdoc",
-		"/Users/rai/Desktop/Frugl.md",
-		"/Users/rai/Dropbox/Programming/ruby/notes/rfz2/rails_for_zombies_two-5.md",
-		"/Users/rai/Desktop/28 March 2014.md",
-		"/Users/rai/Desktop/PickEvent.md",
-		"/Users/rai/Desktop/27 March 2014.md",
-		"/Users/rai/Desktop/Startup Career Launchpad.md",
-		"/Users/rai/Dropbox/Programming/ruby/TwitterForZombies/config/database.yml",
-		"/Users/rai/Dropbox/Programming/ruby/notes/rfz2/rails_for_zombies_two-1.md",
-		"/config/database.yml",
-		"/Users/rai/Dropbox/Programming/ruby/TwitterForZombies/app/controllers/zombies_controller.rb",
-		"/Users/rai/Desktop/How to Build a Startup Lesson 1-5b.md",
-		"/Users/rai/Desktop/How to Build a Startup Lesson 1-5a.md",
-		"/Users/rai/Desktop/How to Build a Startup Lesson 1.md",
-		"/Users/rai/Desktop/Fit2Function Lesson 2.md",
-		"/Users/rai/Desktop/26th March 2014.md",
-		"/Users/rai/Dropbox/Programming/ruby/notes/RfR1.md",
-		"/Users/rai/Dropbox/Programming/ruby/codeschool - ruby bits 5.md",
-		"/Users/rai/Dropbox/Programming/ruby/codeschool - ruby bits 4.md",
-		"/Users/rai/Dropbox/Programming/ruby/codeschool - ruby bits 6.md",
-		"/Users/rai/Library/Application Support/Sublime Text 3/Packages/User/Markdown.sublime-settings",
-		"/Users/rai/Dropbox/Programming/ruby/codeschool - ruby bits 1.md",
-		"/Users/rai/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
-		"/Users/rai/Library/Application Support/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
-		"/tmp/subl stdin ceVnpp.txt",
-		"/Users/rai/.zprofile"
+		"/Users/rai/Desktop/Day Diary 02 April 2014.md"
 	],
 	"find":
 	{
-		"height": 26.0
+		"height": 37.0
 	},
 	"find_in_files":
 	{
@@ -223,6 +344,39 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"alert",
+			":",
+			"should",
+			"do",
+			"title",
+			"have_selector('h1',    text: ",
+			"have_selector('div.alert.alert-success', text: ",
+			"error",
+			"have_selector('title', text: ",
+			"have_selector 'title', text: ",
+			"have_selector('title',",
+			"have_selector('title', text: ",
+			"should have_selector('title',",
+			"should have_selector('title', text: ",
+			"should have_selector('title', text:",
+			"it { should have_title",
+			"('",
+			"page",
+			"it { should have_selector('title',",
+			"params[:session]",
+			"f.",
+			"Email",
+			"it {should",
+			"@user.",
+			"<% f.",
+			"    <% f.label @user.email %>\n    <% f.text_field @user.email %>\n",
+			"ctrl+shift+r",
+			"shift+r",
+			":password",
+			"password",
+			"      <%= f.label :password %>\n      <%= f.password_field :password %>\n",
+			"email",
+			"name",
 			"click_link",
 			"##",
 			"assignments",
@@ -254,11 +408,16 @@
 			"sheets":
 			[
 			]
+		},
+		{
+			"sheets":
+			[
+			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 37.0
+		"height": 36.0
 	},
 	"input":
 	{
@@ -273,6 +432,12 @@
 				0,
 				1,
 				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
 			]
 		],
 		"cols":
@@ -283,6 +448,7 @@
 		"rows":
 		[
 			0.0,
+			0.5,
 			1.0
 		]
 	},
@@ -298,7 +464,7 @@
 	"project": "rails tutorial ch3 sample_app.sublime-project",
 	"replace":
 	{
-		"height": 48.0
+		"height": 46.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -306,6 +472,218 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"micr",
+				"app/models/micropost.rb"
+			],
+			[
+				"spec_helper",
+				"spec/spec_helper.rb"
+			],
+			[
+				"gemile",
+				"Gemfile"
+			],
+			[
+				"guard",
+				"Guardfile"
+			],
+			[
+				".rspec",
+				".rspec"
+			],
+			[
+				"ups",
+				"spec/requests/user_pages_spec.rb"
+			],
+			[
+				"aps",
+				"spec/requests/authentication_pages_spec.rb"
+			],
+			[
+				"auth",
+				"spec/requests/authentication_pages_spec.rb"
+			],
+			[
+				"",
+				"app/controllers/users_controller.rb"
+			],
+			[
+				"controller",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"routes.rb",
+				"config/routes.rb"
+			],
+			[
+				"helper",
+				"app/helpers/application_helper.rb"
+			],
+			[
+				"help",
+				"app/helpers/application_helper.rb"
+			],
+			[
+				"helpers",
+				"app/helpers/application_helper.rb"
+			],
+			[
+				"appl",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"utilities",
+				"spec/support/utilities.rb"
+			],
+			[
+				"utilites",
+				"spec/support/utilities.rb"
+			],
+			[
+				"field",
+				"app/views/users/_fields.html.erb"
+			],
+			[
+				"new",
+				"app/views/users/new.html.erb"
+			],
+			[
+				"spec",
+				"spec/models/user_spec.rb"
+			],
+			[
+				"user",
+				"spec/models/user_spec.rb"
+			],
+			[
+				"edit",
+				"app/views/users/edit.html.erb"
+			],
+			[
+				"models/u",
+				"app/models/user.rb"
+			],
+			[
+				"_user",
+				"app/views/users/_user.html.erb"
+			],
+			[
+				"factories.rb",
+				"spec/factories.rb"
+			],
+			[
+				"rake",
+				"lib/tasks/sample_data.rake"
+			],
+			[
+				"sample",
+				"lib/tasks/sample_data.rake"
+			],
+			[
+				"user_spec",
+				"spec/models/user_spec.rb"
+			],
+			[
+				"gemfile",
+				"Gemfile"
+			],
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"header",
+				"app/views/layouts/_header.html.erb"
+			],
+			[
+				"cus",
+				"app/assets/stylesheets/custom.css.scss"
+			],
+			[
+				"application.html",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"user_",
+				"spec/requests/user_pages_spec.rb"
+			],
+			[
+				"utilities.rb",
+				"spec/support/utilities.rb"
+			],
+			[
+				"sc",
+				"app/controllers/sessions_controller.rb"
+			],
+			[
+				"sessions",
+				"app/controllers/sessions_controller.rb"
+			],
+			[
+				"pagespec",
+				"spec/requests/user_pages_spec.rb"
+			],
+			[
+				"snew",
+				"app/views/sessions/new.html.erb"
+			],
+			[
+				"ajs",
+				"app/assets/javascripts/application.js"
+			],
+			[
+				"user.rb",
+				"app/models/user.rb"
+			],
+			[
+				"add_rem",
+				"db/migrate/20140409110620_add_remember_token_to_users.rb"
+			],
+			[
+				"sessions_controller",
+				"app/controllers/sessions_controller.rb"
+			],
+			[
+				"rrb",
+				"config/routes.rb"
+			],
+			[
+				"production",
+				"config/environments/production.rb"
+			],
+			[
+				"application.ht",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"custom.css",
+				"app/assets/stylesheets/custom.css.scss"
+			],
+			[
+				"user_controller",
+				"app/controllers/users_controller.rb"
+			],
+			[
+				"ccss",
+				"app/assets/stylesheets/custom.css.scss"
+			],
+			[
+				"uh",
+				"app/helpers/users_helper.rb"
+			],
+			[
+				"test",
+				"config/environments/test.rb"
+			],
+			[
+				"custom",
+				"app/assets/stylesheets/custom.css.scss"
+			],
+			[
+				"application.html.erb",
+				"app/views/layouts/application.html.erb"
+			],
 			[
 				"mig",
 				"db/migrate/20140404151752_add_index_to_users_email.rb"
@@ -315,24 +693,8 @@
 				"app/models/user.rb"
 			],
 			[
-				"",
-				"Gemfile"
-			],
-			[
-				"user",
-				"spec/models/user_spec.rb"
-			],
-			[
-				"user_spec",
-				"spec/models/user_spec.rb"
-			],
-			[
 				"applicatoin.rb",
 				"config/application.rb"
-			],
-			[
-				"user.rb",
-				"app/models/user.rb"
 			],
 			[
 				"pass",
@@ -351,24 +713,8 @@
 				"db/migrate/20140404151752_add_index_to_users_email.rb"
 			],
 			[
-				"utilities",
-				"spec/support/utilities.rb"
-			],
-			[
-				"spec_helper",
-				"spec/spec_helper.rb"
-			],
-			[
 				"utilites.rb",
 				"spec/support/utilities.rb"
-			],
-			[
-				"new",
-				"app/views/users/new.html.erb"
-			],
-			[
-				"helper",
-				"app/helpers/application_helper.rb"
 			],
 			[
 				"layout",
@@ -381,29 +727,33 @@
 			[
 				"home.html.erb",
 				"app/views/static_pages/home.html.erb"
-			],
-			[
-				"spec",
-				"spec/requests/static_pages_spec.rb"
 			]
 		],
 		"width": 0.0
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 76.0,
 		"selected_items":
 		[
 		],
-		"width": 0.0
+		"width": 380.0
 	},
 	"select_symbol":
 	{
-		"height": 0.0,
+		"height": 28.0,
 		"selected_items":
 		[
+			[
+				"sign_in",
+				"sign_in"
+			],
+			[
+				"session",
+				"SessionsHelper"
+			]
 		],
-		"width": 0.0
+		"width": 592.0
 	},
 	"settings":
 	{
@@ -412,7 +762,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 151.0,
+	"side_bar_width": 192.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
