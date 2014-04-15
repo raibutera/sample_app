@@ -150,6 +150,7 @@ describe User do
     end
   end
 
+
   describe "micropost assocations" do
     
     before do
