@@ -97,14 +97,14 @@ describe User do
     end
   end
   describe "when email address is already taken" do
-      before do
-        user_with_same_email = @user.dup
-        user_with_same_email.email = @user.email.upcase
-        user_with_same_email.save
-      end
-
-      it { should_not be_valid }
+    before do
+      user_with_same_email = @user.dup
+      user_with_same_email.email = @user.email.upcase
+      user_with_same_email.save
     end
+
+    it { should_not be_valid }
+  end
 
   describe "when password is not present" do
     before { @user.password = @user.password_confirmation = " " }
@@ -157,7 +157,7 @@ describe User do
 
 
   describe "micropost assocations" do
-    
+
     before do
       @user.save
     end
